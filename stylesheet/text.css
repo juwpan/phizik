@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin-right: 5em;
+  margin-left: 5em;
+}
+
+.title_text {
+  margin-top: 1em;
+  color: rgb(17, 122, 80);
+}
+
+.text_frame_name {
+  font-family: Arial, Helvetica, sans-serif;
+  background:rgb(80, 15, 15);
+  font-size: 20px;
+  margin: 0em;
+  color: #ffff;
+}
+
+.text_frame_year {
+  font-family: Arial, Helvetica, sans-serif;
+  background:rgb(88, 118, 45);
+  font-size: 20px;
+  margin: 0em;
+}
+
+.text_frame_description {
+  text-align:center;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  background:rgb(179, 172, 105);
+  font-size: 17px;
+  margin: 0em;
+}
+
+.text_description_paragraph {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 140%;
+  margin-top: 3em;
+  font-size: 24px;
+  text-align: left;
+  padding-bottom: -1em;
+  margin-bottom: -1em;
+  margin-top: 2em;
+  margin-right: 10em;
+  margin-left: 10em;
+}
+
+.indent {
+  text-indent: 22px;
+  padding-bottom: 2em;
+ }
+
+ .text_description_particles {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+ }
+
+ .right {
+   margin-top: -2em;
+ }
+
+.color_text {
+ color: rgb(137, 26, 26);
+}
+
+.color_text_two {
+  color: rgb(44, 175, 62);
+ }
+ 
