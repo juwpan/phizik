@@ -116,8 +116,7 @@
   }
 
   .frame_left {
-  float: right;
-  margin-left: 3em;
+  margin-left: 1em;
   margin-right: 3em;
   }
 
@@ -132,8 +131,7 @@
    }
   
    .frame_right {
-    float: right;
-  margin-left: 2em;
+  margin-left: 1em;
   margin-right: 2em;
   }
 }
@@ -141,14 +139,26 @@
 /* 480 */
 
 @media (max-width: 480px) {
+  body {
+    margin: 0.5em;
+    padding: 0.5em;
+  }
   .title_text {
-    margin-left: -2em;
-    font-size: 30px;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    font-size: 25px;
   }
 
+  .frame_left {
+    margin-left: 4.5em;
+    text-align: center;
+  }
   .text_description_paragraph {
     text-align: center;
     font-size: 18px;
+  }
+  .frame_right {
+    margin-left: 4.5em;
   }
   
   .indent {
@@ -158,16 +168,16 @@
    }
 }
 
-/* 380 */
+/* 390 */
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
   .title_text {
-    margin-left: -2em;
-    font-size: 30px;
+    margin-left: 0em;
+    margin-bottom: -1em;
   }
 
   .frame_left {
-    margin-right: -1em;
+    margin-left: 3em;
   }
 
   .text_description_paragraph {
@@ -182,6 +192,7 @@
    }
 
    .frame_right {
-    margin-right: -1em;
+    margin-right: 3em;
+    margin-left: 3em;
    }
 }
